@@ -3,9 +3,10 @@ let y = 10
 
 function printMyName() {
     console.log("Linus")
+    console.log(x + y)
 }
 
-
+printMyName()
 
 calc(5, 10)
 calc(1, 5)
