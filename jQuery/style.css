@@ -1,0 +1,9 @@
+p {
+    padding: 10px;
+}
+
+.hover {
+    color: ghostwhite;
+    background-color: darkblue;
+    border-radius: 10px;
+}
