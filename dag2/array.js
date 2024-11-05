@@ -25,3 +25,4 @@ const nummer2 = [1, 2, 3, 4, 5];
 const nyArray2 = nummer2.slice(1, 4);
 console.log(nyArray2);  // Output: [2, 3, 4]
 console.log(nummer2);
+

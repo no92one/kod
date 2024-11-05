@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery Tutorial</title>
+    <script src="jquery-3.7.1.min.js"></script>
+    <script src="app.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Points Counter</h1>
+    <div id="gameBox">
+        <div id="settingsBox">
+            <img id="settingsImage" src="icons8-settings.svg"></img>
+        </div>
+
+        <div id="playerName">
+            <p id="p1Name"></p>
+            <p id="p2Name"></p>
+        </div>
+
+        <p id="pointBox">
+            <span id="p1Points"></span>
+            <span id="p2Points"></span>
+        </p>
+
+        <div id="buttonsBox">
+            <div id="p1Buttons">
+                <button id="p1AddBtn" class="addButton">+</button>
+                <button id="p1RemoveBtn" class="removeButton">-</button>
+            </div>
+            <div id="p2Buttons">
+                <button id="p2AddBtn" class="addButton">+</button>
+                <button id="p2RemoveBtn" class="removeButton">-</button>
+            </div>
+        </div>
+
+        <div id="winnerBox" style="display: none;">
+            <h2 id="winnerText">Någon har funnit</h2>
+            <button id="resetBtn">New game</button>
+        </div>
+    </div>
+</body>
+
+</html>
